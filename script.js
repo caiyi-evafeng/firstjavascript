@@ -1,34 +1,32 @@
-// var string1 = "great day today!"
-// var string2 = "the weather is nice!"
-//
-// if(string1==string2){
-//   alert("Yes! Today is a great day!")
-// }else{
-//   alert("We have different definition for a great day :(")
-// }
-//
-//
-//
-// var num1 = 9
-// var guess = 8
-//
-// if(num1==guess){
-//   alert("You got it!")
-// }else if (num1 > guess){
-//   alert("Try bigger number!")
-// }else{
-//   alert("Try smaller number!")
-// }
-//
-// function combine(){
-//   console.log(string1+ " " +string2);
-// }
-// combine()
+var string1 = "great day today!"
+var string2 = "the weather is nice!"
 
-var num3 = Math.floor(Math.random()*32).toFixed(2);
-console.log(num3)
-var num = (num3/100+10).toFixed(2);
-console.log(num);
+if(string1==string2){
+  alert("Yes! Today is a great day!")
+}else{
+  alert("We have different definition for a great day :(")
+}
+
+
+
+var num1 = 9
+var guess = 8
+
+if(num1==guess){
+  alert("You got it!")
+}else if (num1 > guess){
+  alert("Try bigger number!")
+}else{
+  alert("Try smaller number!")
+}
+
+function combine(){
+  console.log(string1+ " " +string2)
+}
+combine()
+
+var num3 = Math.floor(Math.random()*32).toFixed(2)
+var num = (num3/100+10).toFixed(2)
 function date(num){
   if (num==10.27){
     return "There's four days more until Hallowen!"
@@ -47,8 +45,8 @@ function date(num){
 console.log(date(num))
 
 
-// var array = ["hahaha", "lol", "wtf","omw","tgif","tltr","YAS"]
-// console.log(array[Math.floor(Math.random()*7)]+" " +array[Math.floor(Math.random()*7)])
+var array = ["hahaha", "lol", "wtf","omw","tgif","tltr","YAS"]
+console.log(array[Math.floor(Math.random()*7)]+" " +array[Math.floor(Math.random()*7)])
 
 
 

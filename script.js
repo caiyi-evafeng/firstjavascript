@@ -25,8 +25,9 @@
 // }
 // combine()
 
-var num3 = Math.floor(Math.random()*32);
-var num = num3/100+10;
+var num3 = Math.floor(Math.random()*32).toFixed(2);
+console.log(num3)
+var num = (num3/100+10).toFixed(2);
 console.log(num);
 function date(num){
   if (num==10.27){
@@ -46,8 +47,8 @@ function date(num){
 console.log(date(num))
 
 
-var array = ["hahaha", "lol", "wtf","omw","tgif","tltr","YAS"]
-console.log(array[Math.floor(Math.random()*7)]+" " +array[Math.floor(Math.random()*7)])
+// var array = ["hahaha", "lol", "wtf","omw","tgif","tltr","YAS"]
+// console.log(array[Math.floor(Math.random()*7)]+" " +array[Math.floor(Math.random()*7)])
 
 
 

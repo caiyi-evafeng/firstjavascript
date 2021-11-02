@@ -20,10 +20,10 @@ if(num1==guess){
   alert("Try smaller number!")
 }
 
-function combine(){
-  console.log(string1+ " " +string2)
+function combine(sentence1, sentence2){
+  console.log(sentence1+ " " +sentence2)
 }
-combine()
+combine(string1, string2)
 
 var num3 = Math.floor(Math.random()*32).toFixed(2)
 var num = (num3/100+10).toFixed(2)
